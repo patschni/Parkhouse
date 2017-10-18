@@ -1,0 +1,46 @@
+
+
+static private ParkHouse parkhaus;
+
+public static void main(String[] args) {
+parkhaus = new ParkHouse();
+for (int id = 1; id <= 20; id++){
+new Car(id, parkhaus).start();
+
+
+
+
+public class Car extends Thread
+{
+
+
+public void run ()
+{
+
+
+private void fahren (){
+
+
+}
+private boolean einparken(){
+
+}
+
+private void parken(){
+
+}
+
+private void ausparken() {
+
+
+private void warten(){
+
+public class ParkHouse 
+{
+private Car[] parkboxes;
+
+public ParkHouse (){
+
+
+
+}
