@@ -6,10 +6,10 @@ public class Kassierer implements KassiererInformationssystem {
 	public Kassierer(double stundenpreis) {
 		this.stundenpreis = stundenpreis;
 	}
-	
+
 	@Override
-	public double Parkgebuehren(double stunden) {
-		return stunden*stundenpreis;
+	public double Parkgebuehren(Ticket t) {
+		return t.parkdauer() * stundenpreis;
 	}
 
 }

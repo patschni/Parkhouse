@@ -1,5 +1,7 @@
 package Parkhouse;
 
 public interface SchrankenwaerterInformationssystem {
-	boolean pruefeAuto(int[] value);
+	boolean pruefeAutoEinfahrt();
+
+	boolean pruefeAutoAusfahrt(Ticket t);
 }

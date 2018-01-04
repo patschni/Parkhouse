@@ -1,5 +1,6 @@
 package Parkhouse;
 
 public interface KassiererInformationssystem {
-	double Parkgebuehren(double value);
+
+	double Parkgebuehren(Ticket t);
 }
